@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.welcome-sec {
+  max-width: 100%;
+  min-height: 100%;
+  background: url("./images/welcome.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome-text-container {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  top: 50%;
+  width: 100%;
+  color: black;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.text-bg {
+  margin: 20px 0px;
+  background: #313534;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section {
+  padding: 50px 64px;
+  text-align: center;
+  background: url("./images/img/lucas-calloch-P-yzuyWFEIk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: whitesmoke;
+}
+.description {
+  font-size: 17px;
+  text-align: left;
+}
+.img-res {
+  width: 100%;
+  height: auto;
+}
+
+/********** Facts section *************/
+.facts {
+  padding: 50px 64px;
+  text-align: center;
+  background: url("./images/img/pawel-wieladek-fMH1QVrWA-w-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-size: cover;
+}
+.facts-qn {
+  text-align: left;
+  color: #f4f4f4;
+}
+.description {
+  color: whitesmoke;
+}
+
+/********Responsive******************/
+@media screen and (max-width: 900px) {
+  .welcome-text-container {
+    line-height: 100px;
+  }
+}
